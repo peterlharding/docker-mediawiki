@@ -1,3 +1,25 @@
+# IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Just ignore
+*.x
+*.ignore
+
+# Local Docker Volume Mounts
+db/
+images/
+
+# Local Mediawiki COnfiguration
+LocalSettings.php
+.env
+
+
+# Python Stuff
+#
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
