@@ -5,9 +5,7 @@
 # ----------------------------------------------------------------------------
 
 setup:
-	-mkdir db images
-	-docker network create mw-net
-	-cp env.tamplate .env
+	bin/setup.sh
 
 ls:
 	-docker ps
